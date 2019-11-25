@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "Input Attribute Tester",
+    "author": "Karthik Kini",
+    "version": "0.1",
+    "icons": { "128": "icon128.png","64": "icon64.png","32": "icon32.png" },
+    "browser_action": {
+        "default_icon": { "128": "icon128.png" },
+        "default_title": "Input Attribute Tester"
+      },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "customStyle.css"
+            ],
+            "js": [
+                "jquery-3.4.1.min.js",
+                "contentScript.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "contextMenus",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "backgroundScript.js"
+        ],
+        "persistent": false
+    }
+}
