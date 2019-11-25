@@ -1,8 +1,8 @@
 .ipt-tst {
     background: black !important;
     color:white  !important;
-    padding:3px  !important;
-    font-size:11px  !important;
+    padding:2px  !important;
+    font-size:10px  !important;
     line-height: 1em  !important;
     cursor: pointer  !important;
     position: absolute  !important;
@@ -15,8 +15,8 @@
     border: 0  !important;
     line-height: 1  !important;
     position: absolute  !important;
-    left:15px  !important;
-    top:10px  !important;
+    left:10px  !important;
+    top:0px  !important;
     z-index:9  !important;
   }
   
